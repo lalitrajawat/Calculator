@@ -6,6 +6,7 @@ function display(value) {
         break;
     }
    // let string2 = document.getElementById("screen");
+    window.navigator.vibrate(500);
     string.value += value;
 }
 
