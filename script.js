@@ -38,14 +38,3 @@ function calculate() {
     string.value = result;
 
 }
-const button = document.getElementById('vibrate-button');
-
-button.addEventListener('click', () => {
-  // Check if the Vibration API is supported
-  if ('vibrate' in navigator) {
-    // Vibrate for 200 milliseconds
-    navigator.vibrate(200);
-  } else {
-    console.log('Vibration API is not supported');
-  }
-});
